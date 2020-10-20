@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions"
+             x:Class="ReceitaIHC.Receita.ReceitaDetalhe"
+             Title="Quibe">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <StackLayout HorizontalOptions="Center" VerticalOptions="End">
+                    <controls:ImageCarousel x:Name="imgSlider" HeightRequest="300" WidthRequest="300" />
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Tempo de Preparo: " TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="40 MIN" TextColor="Black" FontSize="Large"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Rendimento: " TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="30 PORÇÕES" TextColor="Black" FontSize="Large"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="Like" TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+                    <ImageButton Source="icon_like.png"  HorizontalOptions="EndAndExpand" Clicked="SomarLike" />
+                </StackLayout>
+                
+                <Label Text="INGREDIENTES" TextColor="Black" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
+                <Label Text=" * 250 g de trigo para quibe
+                             &#10; * 1/2 kg de carne moída
+                             &#10; * 1/2 maço de hortelãs
+                             &#10; * 1 cebola grande picada
+                             &#10; * 2 dentes de alho amassados
+                             &#10; * 1 ovo
+                             &#10; * 4 colheres de sopa de farinha de trigo
+                             &#10; * Sal e pimenta a gosto
+                             &#10; * Óleo para fritar
+                             &#10; RECHEIO    
+                             &#10; * 300 g de queijo tipo mussarela cortado em forma de palito" TextColor="Black" FontSize="Medium"/>
+                <Label Text="MODO DE PREPARO" TextColor="Black" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
+                <Label Text=" * Deixe o trigo de molho de um dia para o outro.
+                             &#10; * Escorra para tirar toda a água.
+                             &#10; * Em um recipiente coloque a carne moída, o trigo, hortelã, alho, cebola, sal e pimenta, mexa.
+                             &#10; * Junte o ovo levemente batido e a farinha de trigo.
+                             &#10; * Mexa para se agregarem.
+                             &#10; * Unte as mãos com óleo e abra porções da massa na palma da mão.
+                             &#10; * Coloque o recheio.
+                             &#10; * Feche modelando o quibe.
+                             &#10; * Frite em óleo não muito quente." TextColor="Black" FontSize="Medium"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

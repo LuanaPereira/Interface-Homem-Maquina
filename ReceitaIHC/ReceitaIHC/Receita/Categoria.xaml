@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+              Title="Receitas IHC" 
+             x:Class="ReceitaIHC.Receita.Categoria">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30">
+                <Button Text="Bolos" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True" Clicked="Bolos"/>
+                <Button Text="Tortas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Massas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Saladas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Lanches" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Sopas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Bebidas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Frutos do Mar" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Carnes" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Acompanhamentos" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+                <Button Text="Molhos" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

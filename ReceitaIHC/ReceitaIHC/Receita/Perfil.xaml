@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Receitas IHC"
+             x:Class="ReceitaIHC.Receita.Perfil">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30">
+                <Image Source="icon_perfil.png" HeightRequest="285"/>
+                <Label Text="Fulano Sumido" TextColor="Black" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="10 Receitas enviadas" TextColor="Black" HorizontalOptions="Center" FontSize="Medium"/>
+                    <Label Text="25 Receitas curtidas" TextColor="Black" HorizontalOptions="Center" FontSize="Medium"/>
+                </StackLayout>
+                <Button Text="Enviadas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True" Clicked="Enviadas"/>
+                <Button Text="Salvas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True" Clicked="Enviadas"/>
+                <Button Text="Recomendadas" TextColor="#FF8C00" BackgroundColor="White" FontSize="Medium" BorderColor="#FF8C00" BorderWidth="2" BorderRadius="20" IsEnabled="True" Clicked="Enviadas"/>
+            </StackLayout>
+        </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>

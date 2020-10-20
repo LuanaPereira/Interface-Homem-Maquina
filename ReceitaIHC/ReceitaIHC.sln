@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceitaIHC.Android", "ReceitaIHC.Android\ReceitaIHC.Android.csproj", "{07905746-183C-47D3-B6A7-0BFB45C8D211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceitaIHC", "ReceitaIHC\ReceitaIHC.csproj", "{DAF794EF-159C-49A1-84AF-43102EED580F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07905746-183C-47D3-B6A7-0BFB45C8D211}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DAF794EF-159C-49A1-84AF-43102EED580F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF794EF-159C-49A1-84AF-43102EED580F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF794EF-159C-49A1-84AF-43102EED580F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF794EF-159C-49A1-84AF-43102EED580F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {685A1BE2-7D27-4791-B7BE-8DCF2D97AEA9}
+	EndGlobalSection
+EndGlobal

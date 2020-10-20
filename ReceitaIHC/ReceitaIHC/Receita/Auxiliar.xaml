@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="ReceitaIHC.Receita.Auxiliar"
+             Title="Receitas">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30" Margin="10">
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="quibe.jpg"/>
+                        <Label Text="Quibe" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout >
+                </pancake:PancakeView>
+
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="pudim.jpg"/>
+                        <Label Text="Pudim" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout>
+                </pancake:PancakeView>
+
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="paoDeQueijo.jpg"/>
+                        <Label Text="Pão de Queijo" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout >
+                </pancake:PancakeView>
+
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="omelete.jpg"/>
+                        <Label Text="Omelete" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout >
+                </pancake:PancakeView>
+
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="caipirinha.jpg"/>
+                        <Label Text="Caipirinha" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout >
+                </pancake:PancakeView>
+
+                <pancake:PancakeView BorderDrawingStyle="Outside"
+                                 BackgroundColor="#FF4500"
+                                 HorizontalOptions="FillAndExpand"
+                                 BorderIsDashed="false"
+                                 CornerRadius="40,40,40,40"
+                                 BorderThickness="4"
+                                 BorderColor="Black">
+                    <StackLayout Padding="30" >
+                        <Image Source="boloChocolate.jpeg"/>
+                        <Label Text="Bolo de Chocolate" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout >
+                </pancake:PancakeView>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
